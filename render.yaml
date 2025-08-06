@@ -5,7 +5,7 @@ services:
     plan: free
     region: oregon  # or frankfurt, singapore, etc.
     buildCommand: "" # No build needed for PHP
-    startCommand: "php -S 0.0.0.0:10000 -t ."
+    startCommand: "php -S 0.0.0.0:10000 -t."
     envVars:
       - key: PHP_DISPLAY_ERRORS
         value: "1"
