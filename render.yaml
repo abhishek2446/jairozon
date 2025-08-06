@@ -9,6 +9,4 @@ services:
     envVars:
       - key: PHP_DISPLAY_ERRORS
         value: "1"
-    branches:
-      only: [main] # Or master, depending on your repo
     autoDeploy: true
